@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".", // This sets the base directory for resolving module names
+    "paths": {
+      "@/*": ["./src/*"] // This maps the "@" alias to the "src" directory
+    },
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing in file names
+    "strict": true // Enable strict type-checking options
+  }
+}
